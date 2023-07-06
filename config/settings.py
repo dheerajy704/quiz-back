@@ -26,7 +26,9 @@ SECRET_KEY = 'miqqh$!(fj2ls&=nahrg6-+mttlg4+4+$ck@zyedn+2!72-cs('
 DEBUG = True
 
 ALLOWED_HOSTS = ['*']
+X_FRAME_OPTIONS= '*'
 CORS_ALLOW_ALL_ORIGINS = True
+CSRF_TRUSTED_ORIGINS = ['http://127.0.0.1:8000/','http://localhost:3000/']
 
 
 # Application definition
